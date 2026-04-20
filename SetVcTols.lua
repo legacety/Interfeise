@@ -52,7 +52,7 @@ end)
 
 function main()
     while not isSampAvailable() do wait(0) end
-    sampAddChatMessage("{00FFFF}[Calc Craft] {FFFFFF}Загружен. Активация {00FFFF}/cc", -1)
+    sampAddChatMessage("{00FFFF}[Calc Craft] {FFFFFF}Г‡Г ГЈГ°ГіГ¦ГҐГ­. ГЂГЄГІГЁГўГ Г¶ГЁГї {00FFFF}/cc", -1)
     sampRegisterChatCommand("cc", function() renderWindow[0] = not renderWindow[0] end)
     wait(-1)
 end
